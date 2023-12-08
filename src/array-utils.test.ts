@@ -1,4 +1,4 @@
-import { expect, test, describe, bench } from "vitest";
+import { expect, test, describe } from "vitest";
 import "./array-utils";
 
 describe("Should test the bubbleSort method", () => {
