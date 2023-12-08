@@ -17,10 +17,6 @@ describe("Should test the bubbleSort method", () => {
   test("test if all elements are sorted", () => {
     expect(isSorted(myArray.bubbleSort())).true;
   });
-
-  bench("bubblesort", () => {
-    myArray.bubbleSort();
-  });
 });
 
 describe("Should test the sumNumbers method", () => {
