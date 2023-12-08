@@ -1,4 +1,4 @@
-import { expect, test, describe } from "vitest";
+import { expect, test, describe, bench } from "vitest";
 import "./array-utils";
 
 describe("Should test the bubbleSort method", () => {
@@ -13,10 +13,16 @@ describe("Should test the bubbleSort method", () => {
   test("Verify that the bubbleSort method is present on the array object", () => {
     expect("bubbleSort" in myArray).true;
   });
+
   test("test if all elements are sorted", () => {
     expect(isSorted(myArray.bubbleSort())).true;
   });
+
+  bench("bubblesort", () => {
+    myArray.bubbleSort();
+  });
 });
+
 describe("Should test the sumNumbers method", () => {
   const myArray = [50, 200];
 
@@ -30,6 +36,7 @@ describe("Should test the sumNumbers method", () => {
     expect(() => ["mango", "pineapple"].sumNumbers()).toThrowError();
   });
 });
+
 describe("Should test the sumNumbers method", () => {
   type Users = {
     dateCreation: Date;
