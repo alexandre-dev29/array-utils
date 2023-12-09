@@ -13,7 +13,6 @@ describe("Should test the bubbleSort method", () => {
   test("Verify that the bubbleSort method is present on the array object", () => {
     expect("bubbleSort" in myArray).true;
   });
-
   test("test if all elements are sorted", () => {
     expect(isSorted(myArray.bubbleSort())).true;
   });
