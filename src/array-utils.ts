@@ -7,6 +7,7 @@ class ArrayOperations {
   static bubbleSort(array: number[]): number[] {
     array = array.slice(); // creates a copy of the array
 
+    // je suis au Devfest
     for (let i = 0; i < array.length; i++) {
       for (let j = 0; j < array.length - 1; j++) {
         if (array[j] > array[j + 1]) {
