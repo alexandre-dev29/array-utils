@@ -1,5 +1,11 @@
 # @proudlydev/array-operations
 
+## 1.3.0
+
+### Minor Changes
+
+- 778c70d: Adding read me
+
 ## 1.2.0
 
 ### Minor Changes
