@@ -1,5 +1,11 @@
 # @proudlydev/array-operations
 
+## 1.4.0
+
+### Minor Changes
+
+- c3627c9: adding comments
+
 ## 1.3.0
 
 ### Minor Changes
